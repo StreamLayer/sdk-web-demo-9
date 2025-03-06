@@ -92,6 +92,7 @@ button:focus-visible {
   --adv-header-border: none;
   --adv-media-row-gap: auto;
   --adv-media-padding: 0;
+  --adv-top-indent: 0;
   --font-color: #090e13;
 
   .PromoOverlayContainer {
@@ -102,10 +103,6 @@ button:focus-visible {
     height: 100%;
     display: flex;
     flex-direction: column;
-
-    > div:last-child {
-      margin-top: 12px;
-    }
 
     > div:nth-child(2) {
       overflow: auto;
